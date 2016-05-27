@@ -11,5 +11,10 @@
             "email": "adams@nanosch.de"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Nanosch\\LaravelSelenium": "src/"
+        }
+    }
 }
